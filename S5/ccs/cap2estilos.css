@@ -1,0 +1,45 @@
+selctor universal
+*{
+    color: brown;
+}
+
+selector de etiqueta
+nav{
+    background: steelblue;
+    border: 5px dotted black;
+}
+h2{
+    color: brown;
+}
+
+selector de clase
+
+.titulo{
+    text-align: right;
+
+}
+selector de id
+
+#idsec{
+    border: 4px double black;
+}
+
+selectore de atributo
+
+a[href]{
+  text-decoration: none;
+}
+[href="htttps://www.google.com"]{
+    color:blue;
+}
+
+[href="htttps"]{
+    color:olive
+}
+[href$="...com"]{
+    color:green
+}
+
+[href*="www."]{
+    text-decoration: underline;
+}
